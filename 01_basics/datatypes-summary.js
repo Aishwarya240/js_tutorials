@@ -34,3 +34,27 @@ const myFunction = function(){
 console.log(typeof  outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof heros); 
+
+// +++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "aishwarya240"
+
+let anothername = myYoutubename
+anothername = "divassassemble"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
