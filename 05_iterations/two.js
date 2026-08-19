@@ -20,3 +20,17 @@ do {
     score++
 } while (score <= 10);
 // do while loop checks the condition first 
+
+
+for (const [key, value] of map){
+    console.log(key, ':-', value);
+}
+
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
+for (const [key, value] of myObject) {
+    
+}
